@@ -1,4 +1,5 @@
 # AI Notebooks
+I find learning more productive and effective while trying to understand high-level concepts by exploring what really lays under the hood and how things work. Hence those notebooks.
 
 This repository contains a set of self-contained Jupyter notebooks that implement and demonstrate classical machine learning algorithms and models coded solely in numpy, from scratch with compact math and explanations for learning purposes.
 
