@@ -28,3 +28,16 @@ def eval_model(y_test, y_test_pred):
     print(f"Recall: {rec:.4f}")
     print(f"F1: {f1:.4f}")
     return prec, rec, f1
+
+def eval_regression(y_true, y_pred):
+    mse = np.mean((y_true - y_pred)**2)
+    rmse = np.sqrt(mse)
+    mae = np.mean(np.abs(y_true - y_pred))
+    r2 = 1 - np.sum((y_true - y_pred)**2) / np.sum((y_true - np.mean(y_true))**2)
+    
+    print(f"MSE: {mse:.3f}")
+    print(f"RMSE: {rmse:.3f}")
+    print(f"MAE: {mae:.3f}")
+    print(f"R2: {r2:.3f}")
+    
+    return mse, rmse, mae, r2

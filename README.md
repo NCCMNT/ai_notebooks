@@ -8,8 +8,10 @@ This repository contains a set of self-contained Jupyter notebooks that implemen
 - `1.2 Polyfeature.ipynb` — Polynomial features and polynomial regression using scikit-learn pipelines and GridSearchCV.
 - `2. Logistic_regression.ipynb` — Logistic regression implemented from scratch with training, evaluation and ROC/AUC.
 - `3. Decision_tree.ipynb` — Decision tree classifier implemented from scratch (entropy, information gain, recursive splitting).
-- `4. Random_forest.ipynb` — (Currently empty) Placeholder for a Random Forest notebook.
-- `5. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
+- `3.2 Regression_tree.ipynb` - Regression tree for continuous predictions
+- `4. Random_forest.ipynb` — Random Forest classifier (ensemble learning with many Decision trees).
+- `5. Gradient_boosting.ipynb` - Gradient Boosting method for updating regression tree predictions based on residuals.
+- `6. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
 
 ## Data
 - The example dataset used by several notebooks is `data/diabetes.csv` (included in the `data/` folder). This dataset contains clinical measurements and a binary `Outcome` column (1 = diabetes, 0 = no diabetes).
