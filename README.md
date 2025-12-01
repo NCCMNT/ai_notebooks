@@ -13,8 +13,10 @@ This repository contains a set of self-contained Jupyter notebooks that implemen
 - `5. Gradient_boosting.ipynb` - Gradient Boosting method for updating regression tree predictions based on residuals.
 - `6. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
 
-## Data
-- The example dataset used by several notebooks is `data/diabetes.csv` (included in the `data/` folder). This dataset contains clinical measurements and a binary `Outcome` column (1 = diabetes, 0 = no diabetes).
+## Datasets
+Datasets downloaded from internet are placed in `notebooks/data` directory and include:
+- `diabetes.csv` dataset which contains clinical measurements and a binary `Outcome` column (1 = diabetes, 0 = no diabetes).
+- `boston/boston.csv` dataset of popular Boston Housing for regression with explained labels in `boston_labels.txt` file.
 
 ## Notes
 Notebooks implement algorithms from scratch; they serve educational purpose.
