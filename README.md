@@ -11,7 +11,10 @@ This repository contains a set of many Jupyter notebooks that implement and demo
 - `3.2 Regression_tree.ipynb` - Regression tree for continuous predictions
 - `4. Random_forest.ipynb` — Random Forest classifier (ensemble learning with many Decision trees).
 - `5. Gradient_boosting.ipynb` - Gradient Boosting method for updating regression tree predictions based on residuals.
-- `6. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
+- `6. KNN.ipynb`
+- `7. SVM.ipynb`
+- `8. K_means.ipynb`
+- `9. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
 
 ## Datasets
 Datasets downloaded from internet are placed in `notebooks/data` directory and include:
