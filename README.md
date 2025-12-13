@@ -16,6 +16,10 @@ This repository contains a set of many Jupyter notebooks that implement and demo
 - `8. K_means.ipynb`
 - `9. MLP.ipynb` — Simple Multi-Layer Perceptron implemented from scratch with backpropagation and visualizations.
 
+## Torch Notebooks
+Neural network models build in Pytorch to compare with build-from-scratch models include:
+- `MLP_torch.ipynb` - MLP with one hidden layer tested on Iris dataset
+
 ## Datasets
 Datasets downloaded from internet are placed in `notebooks/data` directory and include:
 - `diabetes.csv` dataset which contains clinical measurements and a binary `Outcome` column (1 = diabetes, 0 = no diabetes).
